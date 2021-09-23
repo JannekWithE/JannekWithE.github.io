@@ -1,30 +1,38 @@
-let VS = 150
-let pp = 10
+let xPos = 150
+let xSpeed = 7
+let ySpeed = 5
+let yPos = 250
+
 
 function setup() {
   fill(52, 219, 235)
-  createCanvas(400, 400);
+  createCanvas(windowWidth, windowHeight);
 }
 
 
 function draw() {
   background(220);
-
-
-  circle(VS,VS,69);
   
-
-  VS = VS+pp
+  let radius = 25
+  let dia = radius * 2
   
-  if (VS > 400) {
+  circle(xPos,yPos,dia);
+  yPos += ySpeed 
+  xPos += xSpeed
   
+  let HitsRight = xPos + radius > width 
+  let Hitsleft = xPos - radius < 0  
+  if (Hitsleft||HitsRight) {
+    
+    fill("red")
   //den skal skifte retning
-  pp=pp*-1
+  xSpeed= -xSpeed
   }
 
-  if (VS < 0) {
-    pp = -pp
-  }
-
-
+  let Hitsbottem = yPos + radius > height 
+  let Hitsloft = yPos - radius < 0
+  if (Hitsloft||Hitsbottem) {
+    fill("blue")
+    ySpeed = -ySpeed
+    }
 }
