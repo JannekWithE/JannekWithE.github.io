@@ -1,7 +1,5 @@
-let XD = 69
 let VS = 150
-let VA = 150
-let pp = 400
+let pp = 10
 
 function setup() {
   fill(52, 219, 235)
@@ -13,14 +11,20 @@ function draw() {
   background(220);
 
 
-  circle(VS,200,XD);
+  circle(VS,VS,69);
   
 
-  VS = VS+1
+  VS = VS+pp
   
-  if (VS==pp) {VS=-VS}
+  if (VS > 400) {
+  
+  //den skal skifte retning
+  pp=pp*-1
+  }
 
-
+  if (VS < 0) {
+    pp = -pp
+  }
 
 
 }
