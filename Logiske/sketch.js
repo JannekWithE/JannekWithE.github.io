@@ -1,5 +1,5 @@
 let dia = 50
-const Mid = 200
+const mid = 200
 
 
 function setup() {
@@ -16,7 +16,7 @@ function draw() {
   
   circle(xMus,yMus,dia);
 
-  if (xMus<200 && yMus<200 || xMus>200 && yMus>200) 
+  if (xMus<mid && yMus<mid || xMus>mid && yMus>mid) 
   {fill("red")}
     else {fill("white");
   }
