@@ -16,7 +16,10 @@ function draw() {
   
   circle(xMus,yMus,dia);
 
-   let yes = width / 2  
-  if(yes) {fill("red")}
+  if (xMus<200 && yMus<200 || xMus>200 && yMus>200) 
+  {fill("red")}
+    else {fill("white");
+  }
 
+   
 }
