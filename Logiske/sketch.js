@@ -10,6 +10,7 @@ function setup() {
 
 function draw() {
   background(220);
+  noStroke()
   
   let xMus=mouseX
   let yMus=mouseY
