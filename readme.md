@@ -1,11 +1,14 @@
-# This is a EPIC gamers ONLY!!!!
+# Dette er Jannkes side
+## Afleveringer    
 
-Gamer!!!!
+Dette er hvor jeg på en måde aflever min lektier
+___________________________________________________________
 
-- [My EPIC!!! gamer circle](circle/)
-- [bad NOT gamer list. Yes not PogChamp](to-do.txt)
-- [yes](stickman/)
-- [My ball go gamer ahaha](jump-cricle/)
+- [Cirkel der skifter farver](circle/)
+- [En liste med ramdom ting på](to-do.txt)
+- [Stille stikman](stickman/)
+- [En cirkel der hopper på sider af browseren](jump-cricle/)
 - [Red and white](Logiske/)
-- [Loops eller noget pro gamer](loop/) 
-- 
+- [Løkker](loop/) 
+
+___________________________________________________________
