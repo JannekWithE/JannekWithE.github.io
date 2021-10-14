@@ -6,4 +6,6 @@ Gamer!!!!
 - [bad NOT gamer list. Yes not PogChamp](to-do.txt)
 - [yes](stickman/)
 - [My ball go gamer ahaha](jump-cricle/)
-- [red and white](Logiske/)
+- [Red and white](Logiske/)
+- [Loops eller noget pro gamer](loop/) 
+- 
