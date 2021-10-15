@@ -4,7 +4,7 @@ const Mid = 200
 
 function setup() {
   fill(52, 219, 235)
-  createCanvas(400, 400);
+  createCanvas(windowWidth, windowHeight);
 }
 
 
