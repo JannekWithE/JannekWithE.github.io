@@ -16,6 +16,8 @@ function draw() {
   let radius = 25
   let dia = radius * 2
   
+  noStroke()
+  fill(xPos, yPos, dia)
   circle(xPos,yPos,dia);
   yPos += ySpeed 
   xPos += xSpeed
