@@ -8,13 +8,18 @@ function setup() {
   text('__________________________________________________________________', 10, 120)
 
 
-  for (let x = 0; x <= 10; x++) {
+  //let value = Math.floor(Math.random() * 6) + 1
 
-    for (let y = 0; y <= 3; y++){
+  let arr = []
+  for (let o = 1; o <= 100; o++) {
 
-      
+    let xSum = 0
+    for (let i = 0; i < 6; i++) {
+      let value = Math.floor(Math.random() * 6) + 1
+      xSum = xSum + value
+      //console.log(value)
     }
-}
-
+    console.log('sum =', xSum)
+  }
 
 }
