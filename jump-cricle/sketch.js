@@ -11,7 +11,7 @@ function setup() {
 
 
 function draw() {
-  background(220);
+  background("lightblue");
   
   let radius = 25
   let dia = radius * 2
